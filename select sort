@@ -1,0 +1,3 @@
+ssort ::[Int] -> [Int]
+ssort [] = []
+ssort xs  = [a | a <- xs,a == maximum xs] ++ ssort ( filter ( <maximum xs) xs )
