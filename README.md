@@ -1,4 +1,4 @@
 haskell
 =======
 
-qsort
+tutorial codes
