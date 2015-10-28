@@ -1,0 +1,3 @@
+test [] = []
+
+test xs = (head $ filter (== head xs) xs, length $ filter (== head xs) xs) :   test (filter (/= head xs) xs)
